@@ -1,9 +1,16 @@
 {
   "name" : "base-rollup",
   "description" : "Simple structure to start working with rollup, babel and jsx",
+  "version" :"1.0.0",
   "main": "dist/orby.js",
   "module": "dist/orby.mjs",
   "source": "src/index.js",
+  "author": "Matias Trujillo Olivares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uppercod/base-rollup.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w"
