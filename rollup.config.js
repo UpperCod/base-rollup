@@ -1,7 +1,6 @@
 import pkg from "./package.json";
 import babel from "rollup-plugin-babel";
 import { terser } from "rollup-plugin-terser";
-import flow from "rollup-plugin-flow";
 
 export default {
     input: pkg.source,
@@ -17,5 +16,5 @@ export default {
             format: "es"
         }
     ],
-    plugins: [babel(), terser(), flow()]
+    plugins: [babel(), terser()]
 };
